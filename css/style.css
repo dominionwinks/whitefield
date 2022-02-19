@@ -1,0 +1,85 @@
+/* root styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    animation-duration: 2s !important;
+    animation-delay: 0.8s;
+}
+header{
+    background-image: url(/images/header-bg.jpg);
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    padding: 10px;
+    background: rgb(56, 18, 56);
+}
+a:hover{
+    text-decoration: none;
+}
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+.header-nav-link{
+    color: white !important;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.nav-link:hover{
+    color: gold !important;
+    transform: scale(1.05);
+    animation: ease-in-out 0.8s;
+}
+
+#nav-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 25rem;
+    margin-left: 10rem;
+}
+nav li{
+    display: inline;
+}
+.carousel-div{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item{
+    color: white;
+    text-align: center;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none !important;
+}
+.slide-h2{
+    font-size: 42px;
+    color: #ffd700;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slide-p{
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.carousel-indicators{
+    display: none;
+}
+.countdown-div{
+    height: 50vh;
+}
+
