@@ -97,6 +97,7 @@ nav li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
     /* height: 40vh; */
 
 } 
@@ -138,11 +139,17 @@ nav li{
     background-repeat: none;
 }
 .lightstream-div{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/lightsream.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/LS\ 1.jpg);
       background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: none;
+}
+.trans-img-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 300px;
 }
 .arms-text-div{
     width: 700px;
@@ -169,14 +176,9 @@ nav li{
     background: white;
     color: black;
 }
-.trans-img-div{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: 300px;
-}
-.conference{
 
+.conference{
+    margin-top: 80px;
 }
 .conference-h1{
     text-align: center;
@@ -209,8 +211,10 @@ nav li{
 }
 .conference-post{
     display: flex ;
-    /* justify-content: space-between; */
-    overflow-x: scroll;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+ 
 }
 .conference-box{
     margin-right: 150px;
@@ -231,6 +235,9 @@ nav li{
     background: #444444;
     color: white;
 }
+.conference-img-div img{
+    border-radius: 9px;
+}
 /* width */
 /* ::-webkit-scrollbar{
   width: 5px;
@@ -249,4 +256,28 @@ nav li{
 /* Handle on hover */
 /* ::-webkit-scrollbar-thumb:hover{
   background: #575252;  */
-} */ */
+.youtube-div{
+    background: #fff;
+    margin-top: 70px;
+}
+.youtube-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.youtube-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.youtube-title{
+    max-width: 300px;
+    color: #707070;
+}
+.youtube-title p{
+    font-size: 15px;
+}
+.youtube-vid-1 iframe{
+    border-radius: 5%;
+}
