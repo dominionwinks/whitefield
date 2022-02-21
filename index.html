@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/count.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link  rel="stylesheet/scss" href="css/carousel.scss">
     <title>Document</title>
 </head>
 <body>
     <header>
-        
         
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
             <a href=""><img src="/images/wfm-logo.png" alt="" id="nav-logo"></a>
@@ -57,9 +57,16 @@
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
+                    
                 <div class="carousel-container">
                     <div class="carousel-inner">
                         <div class="welcome-slide carousel-item active">
+                            <div class="animated wow fadeInDown" data-wow-delay="1s">
+                                <img src="/images/wfm-logo-text.png" alt="" id="wfm-text-logo">
+                        
+                            </div>
+                        </div>
+                        <!-- <div class="updates-slide carousel-item">
                             <div class="animated wow fadeInDown" data-wow-delay="1s">
                                 <h2 class="slide-h2">
                                     Adura lo n Segun gbogbo Ogun
@@ -82,7 +89,7 @@
                     
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -97,24 +104,167 @@
         </div>
     </header>
 
-<div class="container">
-    <div id="countdown-box">
-        <ul>
-            <li class="countdown-li"><span id="days"></span>days</li>
-            <li class="countdown-li"><span id="hours"></span>Hours</li>
-            <li class="countdown-li"><span id="minutes"></span>Minutes</li>
-            <li class="countdown-li"><span id="seconds"></span>Seconds</li>
-        </ul>
-    </div>
-    <div id="content" class="emoji">
-        <span>🥳</span>
-        <span>🎉</span>
-        <span>🎂</span>
-    </div>
-</div>
+    <div class="countdown-div">
+        <div id="countdown-box">
+            <ul>
+                <li class="countdown-li"><span id="days"></span>days</li>
+                <li class="countdown-li"><span id="hours"></span>Hours</li>
+                <li class="countdown-li"><span id="minutes"></span>Minutes</li>
+                <li class="countdown-li"><span id="seconds"></span>Seconds</li>
+            </ul>
+        </div>
+        <!-- <div id="content" class="emoji">
+            <span>🥳</span>
+            <span>🎉</span>
+            <span>🎂</span>
+        </div> -->
+        <div class="event-logo">
+            <img src="/images/passion-2022.png" alt="" id="event-img">
         </div>
     </div>
+    <div class="arms-div">
+
+        <divs class="cw-div">
+            <div class="arms-img-div">
+                <img src="/images/cwc-logo.png" alt="" id="cw-img">
+            </div>
+        
+            <div class="meta-text arms-text-div">
+                <p class="'arm-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et optio ducimus, eos voluptates ea
+                    aspernatur id
+                    suscipit. Reiciendis unde qui voluptate sunt consequatur labore facere nulla nemo dicta corporis?
+                </p>
+                <a class="arms-link" href="">Learn more</a>
+            </div>
+        </divs>
+
+        <div class="transcend-div" >
+        
+            <div class="trans-text arms-text-div">
+                <p class="'arm-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et optio ducimus, eos voluptates ea aspernatur id
+                    suscipit. Reiciendis unde qui voluptate sunt consequatur labore facere nulla nemo dicta corporis?
+                </p>
+                <a class="arms-link" href="">Learn more</a>
+            </div>
+            <div class="trans-img-div">
+                <img src="/images/transcend-logo.png" alt="" id="trans-img">
+            </div>
+        </div>
+
+        <div class="metamorphoo-div">
+            <div class="arms-img-div">
+                <img src="/images/metamorphoo-logo.png" alt="" id="meta-img">
+            </div>
+            
+            <div class="meta-text arms-text-div">
+                <p class="'arm-p" style="color: ;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et optio ducimus, eos voluptates ea aspernatur id
+                    suscipit. Reiciendis unde qui voluptate sunt consequatur labore facere nulla nemo dicta corporis?
+                </p>
+                <a class="arms-link" href="">Learn more</a>
+            </div>
+        </div>
+        <div class="transcend-div lightstream-div">
+        
+            <div class="trans-text arms-text-div">
+                <p class="'arm-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et optio ducimus, eos voluptates ea
+                    aspernatur id
+                    suscipit. Reiciendis unde qui voluptate sunt consequatur labore facere nulla nemo dicta corporis?
+                </p>
+                <a class="arms-link" href="">Learn more</a>
+            </div>
+            <div class="trans-img-div">
+                <img src="/images/lightstream-logo.png" alt="" id="trans-img">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="conference container">
+        <h1 class="conference-h1">Conferences & Special Meetings </h1>
+        <h2 class="conference-h2">Championing the cause of local churches everywhere</h2>
+        <div class="conference-post">
+            <a href="">
+            <div class="conference-box">
+                <div class="conference-img-div">
+                    <img src="/images/katartismos.jpg" alt="" class="conference-img">
+                    <h1 class="conference-title">KATARTISMOS <br> CONGRESS</h1> 
+                </div>
+                <p class="conference-desc">Championing the cause of local churches  <br> everywhere</p>
+                <a class="conference-link" href="">FIND OUT MORE</a>
+            </div>
+            </a>
+            <a href="">
+            <div class="conference-box">
+                <div class="conference-img-div">
+                    <img src="/images/metamorphoo.jpg" alt="" class="conference-img">
+                    <h1 class="conference-title">METAMORPHOŌ <br>BOOT CAMP</h1> 
+                </div>
+                <p class="conference-desc">Championing the cause of local churches  <br> everywhere</p>
+                <a class="conference-link" href="">FIND OUT MORE</a>
+            </div>
+            </a>
+            <a href="">
+            <div class="conference-box">
+                <div class="conference-img-div">
+                    <img src="/images/haystack.jpg" alt="" class="conference-img">
+                    <h1 class="conference-title">HAYSTACK <br>CONFERENCE</h1> 
+                </div>
+                <p class="conference-desc">Championing the cause of local churches  <br> everywhere</p>
+               <p><a class="conference-link" href="">FIND OUT MORE</a></p>
+            </div>
+            </a>
+            <a href="">
+            <div class="conference-box">
+                <div class="conference-img-div">
+                    <img src="/images/haystack.jpg" alt="" class="conference-img">
+                    <h1 class="conference-title">HAYSTACK <br>CONFERENCE</h1> 
+                </div>
+                <p class="conference-desc">Championing the cause of local churches  <br> everywhere</p>
+               <p><a class="conference-link" href="">FIND OUT MORE</a></p>
+            </div>
+            </a>
+        </div>
+    </div>
+    <!-- <div class="grid-container">
+    
+        <main class="grid-item main">
+            <div class="items">
+                <div class="item item1">hello</div>
+                <div class="item item2">hello</div>
+                <div class="item item3">hello</div>
+                <div class="item item4">hello</div>
+                <div class="item item5">hello</div>
+                <div class="item item6">hello</div>
+                <div class="item item7">hello</div>
+                <div class="item item8">hello</div>
+                <div class="item item9">hello</div>
+                <div class="item item10"hello></div>
+            </div>
+    
+    </div> -->
+
+    <div class="youtube">
+        <div class="youtube-vid">
+            
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5ZREAh4oPFM" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8lh5gv9fKok" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+
+
+    
+     
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="/js/carousel.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.min.js"></script>

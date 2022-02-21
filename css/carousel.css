@@ -1,0 +1,39 @@
+
+
+#dragSpace {
+  position:fixed;
+  width:10000px;
+  height:300px;
+  top:60px;
+  background-color:black;
+  left:-5000px;
+  margin-top:10px;
+}
+#wrapperBoxes{
+  position: absolute;
+  width: 5000px;
+  height: 300px;
+  left: 5000px;
+}
+.box {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  margin: 40px 25px;
+  background-color: #91e600;
+  text-align: center;
+  font-family: Asap, Avenir, Arial, sans-serif;
+  font-size: 150px;
+  font-weight:600;
+  line-height: 220px;
+  color: black;
+  float: left;
+}
+
+  
+
+label {
+  font-size:20px;
+}
+
