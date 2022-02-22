@@ -258,7 +258,7 @@ nav li{
 .conference-container {
   position: relative;
   /* width: 1000px; */
-  height: 800px;
+  height: 700px;
   overflow: hidden;
   cursor: grab;
 }
