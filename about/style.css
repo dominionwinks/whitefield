@@ -69,22 +69,31 @@ nav li{
 }
 .wwa{
     padding: 30px;
+    margin: 0 90px 30px;
+
 }
 .wwa-p{
-    width: 900px;
+    max-width: 900px;
     font-size: 20px;
     line-height: 35px;
+    text-align: justify;
+
 }
 .our-min-img{
-    width: 900px;
+    width: 700px;
     height: 400px;
     object-fit: cover;
-    margin-bottom: 30px;
+    margin:0 60px 30px;
+
 }
 .conference-img-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 50px;
-    width: 900px;
+    max-width: 900px;
 }
 .conference-img{
     width: 280px;
@@ -92,20 +101,78 @@ nav li{
     object-fit: cover;
 }
 .conference-p{
-    width: 900px;
+    max-width: 900px;
     font-size: 18px;
     line-height: 35px;
 }
 .pastor-div{
-    margin-bottom: 100px;
-    width: 900px;
-    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    /* flex-shrink: inherit; */
+    /* margin-bottom: 100px; */
+    margin: 0 90px 100px;
+
+    max-width: 1000px;
 }
 .pastor-img{
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
 }
 .pastor-text{
+    max-width: 500px;
     text-align: right;
     line-height: 40px;
+}
+
+/*Footer Styles*/
+
+footer{
+    background: #e3e3e3;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 30px;
+}
+.footer-follow{
+    font-size: 20px;
+    /* font-weight: 500; */
+}
+.icons a{
+    text-decoration: none;
+    color: #707070;
+}
+.footer-info{
+    font-size: 20px;
+    color: #707070;
+}
+.contact-us{
+    font-size: 20px;
+color: #707070;
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 17px;
+    color: #707070;
+}
+.policy-div{
+   margin-left: 10px;
+    display: inline;
+}
+.policy-div li{
+    margin-right: 20px;
+    display: inline;
+    font-size: 17px;
+}
+.contact-us{
+    margin-left: -200px;
+}
+.social-media i{
+    margin-right: 7px;
+    font-size: 20px;
 }
