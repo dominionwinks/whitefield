@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(/images/DSC_0093.jpg);
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    padding: 10px;
+    background: rgb(56, 18, 56);
+}
+a:hover{
+    text-decoration: none;
+}
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+.header-nav-link{
+    color: white !important;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.nav-link:hover{
+    color: gold !important;
+    transform: scale(1.05);
+    animation: ease-in-out 0.8s;
+}
+
+#nav-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 25rem;
+    margin-left: 10rem;
+}
+nav li{
+    display: inline;
+}
+.link-hover-effect-1 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.5rem 0;
+}
+
+.link-hover-effect-1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform: translateX(-105%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.link-hover-effect-1:hover::before {
+  transform: translateX(0);
+}
+.wwa{
+    padding: 30px;
+}
+.wwa-p{
+    width: 900px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.our-min-img{
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.conference-img-div{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 900px;
+}
+.conference-img{
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+}
+.conference-p{
+    width: 900px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.pastor-div{
+    margin-bottom: 100px;
+    width: 900px;
+    padding: 30px;
+}
+.pastor-img{
+    height: 350px;
+    width: 350px;
+}
+.pastor-text{
+    text-align: right;
+    line-height: 40px;
+}
