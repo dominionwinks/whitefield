@@ -78,13 +78,14 @@ nav li{
     object-fit: cover;
     margin-bottom: 30px;
 }
-div p{
+.meta p{
     /* width: 900px; */
     /* font-size: 20px; */
     line-height: 35px;
    /* margin: 0 90px 30px; */
     text-align: justify;
 }
+
 /*Footer Styles*/
 
 footer{
@@ -97,6 +98,9 @@ footer{
     font-size: 20px;
     /* font-weight: 500; */
 }
+.social-media .col-md-4{
+    text-align: center;
+}
 .icons a{
     text-decoration: none;
     color: #707070;
@@ -107,12 +111,7 @@ footer{
 }
 .contact-us{
     font-size: 20px;
-color: #707070;
-}
-.social-media{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    color: #707070;
 }
 .copyright{
     text-align: center;
@@ -120,19 +119,30 @@ color: #707070;
     font-size: 17px;
     color: #707070;
 }
+.copyright-text{
+    text-align: right;
+}
 .policy-div{
-   margin-left: 10px;
     display: inline;
 }
 .policy-div li{
     margin-right: 20px;
     display: inline;
-    font-size: 17px;
-}
-.contact-us{
-    margin-left: -200px;
 }
 .social-media i{
     margin-right: 7px;
     font-size: 20px;
+}
+
+/**Media Queries**/
+@media (max-width: 1000px) {
+    footer,  .copyright, .footer-info, .footer-follow, .contact-us{
+        font-size: 15px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    .footer-info{
+        margin-bottom: 0;
+    }
 }
