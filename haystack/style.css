@@ -141,4 +141,12 @@ footer{
     .footer-info{
         margin-bottom: 0;
     }
+    *{
+        font-size: 90%;
+        line-height: 25px;
+    }
+    header{
+        height: 50vh;
+
+    }
 }

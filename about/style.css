@@ -110,21 +110,19 @@ nav li{
 }
 .pastor-div{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* flex-shrink: inherit; */
-    /* margin-bottom: 100px; */
-    /* margin: 0 90px 100px; */
-
-    max-width: 1000px;
+    /* justify-content: space-between; */
+    flex-wrap: nowrap;
+    /* max-width: 1000px; */
+    margin-left: 20px;
 }
 .pastor-img{
     height: 400px;
     width: 400px;
+    margin-right: 60px;
 }
 .pastor-text{
-    max-width: 500px;
-    text-align: right;
+    max-width: 420px;
+    text-align: justify;
     line-height: 40px;
 }
 
@@ -178,8 +176,35 @@ footer{
 
 /**Media Queries**/
 @media (max-width: 1000px) {
+    .wwa-p, .conference-p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .wwa-h1{
+        font-size: 20px;
+    }
+    .wwa-h2{
+        font-size: 18px;
+    }
+    .pastor-img{
+        width: 350px;
+        height: 350px;
+    }
+    .pastor-text{
+        font-size: 13px;
+        line-height: 40px;
+        max-width: 300px;
+    }
     .conf-img-3{
         display: none;
+    }
+    .conf-img-2, .conf-img-1{
+        width: 290px;
+        height: 180px;
+    }
+    .our-min-img{
+    width: 500px;
+    height: 250px;
     }
     footer,  .copyright, .footer-info, .footer-follow, .contact-us{
         font-size: 15px;
@@ -190,17 +215,67 @@ footer{
     .footer-info{
         margin-bottom: 0;
     }
+    header{
+        height: 50vh;
+    }
+    
+}
+@media (max-width: 900px){
+    .pastor-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pastor-img{
+        text-align: center;
+        margin: 0;
+    }
+    .pastor-text{
+        text-align: justify;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 700px){
+   .conf-img-1{
+        display: none;
+    }
+    .conf-img-2{
+        width: 500px;
+        height: 250px;
+    }
 }
 @media (max-width: 576px) {
+    .our-min-img{
+        width: 400px;
+        height: 150px;
+    }
     .conf-img-1{
         display: none;
     }
+    .conf-img-2{
+        padding: 10px;
+        width: 500px;
+        height: 150px;
+    }
+    .wwa{
+        padding: 8px 15px;
+    }
     .wwa-p, .conference-p{
-        font-size: 15px;
+        font-size: 12px;
         line-height: 25px;
+    }
+    .wwa-h1{
+        font-size: 18px;
+    }
+    .wwa-h2{
+        font-size: 15px;
+    }
+    .pastor-div{
+        margin-left: 0;
     }
     .pastor-text{
         font-size: 12px;
         line-height: 20px;
+        margin-top: 10px;
     }
 }

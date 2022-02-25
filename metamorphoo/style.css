@@ -145,4 +145,23 @@ footer{
     .footer-info{
         margin-bottom: 0;
     }
+    header{
+        height: 60vh;
+    }
+}
+@media (max-width: 1000px) {
+    *{
+        font-size: 90%;
+        line-height: 25px;
+    }
+    header{
+        height: 50vh;
+
+    }
+}
+@media(max-width: 576px){
+    .meta-img{
+        width: 400px;
+        height: 200px;
+    }    
 }
