@@ -29,11 +29,7 @@ a:hover{
     display: flex;
     font-size: 15px;
     font-weight: bold;
-}
-.nav-link:hover{
-    color: gold !important;
-    transform: scale(1.05);
-    animation: ease-in-out 0.8s;
+
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -41,6 +37,7 @@ a:hover{
 #nav-logo{
     width: 50px;
     height: 50px;
+    /* margin-right: 25rem; */
 }
 nav li{
     display: inline;
@@ -67,7 +64,14 @@ nav li{
 .link-hover-effect-1:hover::before {
   transform: translateX(0);
 }
-
+.dropdown-menu.show{
+    padding-left: 10px;
+    background: #381238;
+    width: 200px;
+}
+.dropdown-menu a{
+    color: white;
+}
 .container{
     max-width:  900px;
 }

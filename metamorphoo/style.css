@@ -30,11 +30,6 @@ a:hover{
     font-size: 15px;
     font-weight: bold;
 }
-.nav-link:hover{
-    color: gold !important;
-    transform: scale(1.05);
-    animation: ease-in-out 0.8s;
-}
 .navbar-collapse{
     justify-content: flex-end;
 }
@@ -52,7 +47,6 @@ nav li{
   overflow: hidden;
   padding: 0.5rem 0;
 }
-
 .link-hover-effect-1::before {
   content: "";
   position: absolute;
@@ -64,10 +58,18 @@ nav li{
   transform: translateX(-105%);
   transition: transform 0.5s ease-in-out;
 }
-
 .link-hover-effect-1:hover::before {
   transform: translateX(0);
 }
+.dropdown-menu.show{
+    padding-left: 10px;
+    background: #381238;
+    width: 200px;
+}
+.dropdown-menu a{
+    color: white;
+}
+
 
 .container{
     max-width:  900px;

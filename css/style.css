@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 html{
     margin-bottom: 0;
+    scroll-behavior: smooth;
 }
 body{
     background: #f3f3f3;
@@ -43,11 +44,6 @@ a:hover{
     font-weight: bold;
 
 }
-.nav-link:hover{
-    color: gold !important;
-    transform: scale(1.05);
-    animation: ease-in-out 0.8s;
-}
 .navbar-collapse{
     justify-content: flex-end;
 }
@@ -80,6 +76,14 @@ nav li{
 
 .link-hover-effect-1:hover::before {
   transform: translateX(0);
+}
+.dropdown-menu.show{
+    padding-left: 10px;
+    background: #381238;
+    width: 200px;
+}
+.dropdown-menu a{
+    color: white;
 }
 
 .carousel-div{
