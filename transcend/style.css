@@ -175,7 +175,7 @@ hr{
 
 .library{
     background-image:url(/images/explore.jpg);
-    height: 35vh;
+    height: 40vh;
     margin: 50px 0px;
     opacity: 95%;
     background-repeat: none;
@@ -184,16 +184,11 @@ hr{
 }
 .library-link{
     text-align: center;
-    align-self: center;
     font-size: 40px;
     font-style: italic;
     text-decoration: underline;
-    padding-top: 10px;
-    padding-right: 40px;
 }
 .library-link a{
-    text-align: center;
-    align-items: center;
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -335,7 +330,7 @@ header{
         font-size: 25px;
     }
     .library{
-        height: 40vh;
+        height: 35vh;
     }
 }
 @media (max-width: 950px){
@@ -463,7 +458,6 @@ hr{
 .trans-text p{
     font-size: 20px;
     line-height: 40px;
-    /* margin-left: -40px; */
 }
 .trans-con-1{
     margin-left: -15px;
@@ -512,7 +506,7 @@ hr{
         font-size: 20px;
     }
     .library{
-        height: 40vh;
+        height: 25vh;
     }
 }
 @media (max-width: 550px){
