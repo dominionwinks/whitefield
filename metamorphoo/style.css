@@ -147,11 +147,6 @@ footer{
     .footer-info{
         margin-bottom: 0;
     }
-    header{
-        height: 60vh;
-    }
-}
-@media (max-width: 1000px) {
     *{
         font-size: 90%;
         line-height: 25px;

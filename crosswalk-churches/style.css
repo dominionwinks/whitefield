@@ -1,0 +1,108 @@
+.intro-text{
+    text-align: center;
+    max-width: 850px;
+    padding: auto 30px;
+    color: #5b5b5b;
+}
+.intro-text h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.intro-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.join-church-div{
+    text-align: center;
+}
+.join-church-div h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #018f9f;
+}
+.join-church-div p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.statements-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    justify-content: center;
+}
+.statement{
+    width: 300px;
+    padding: 30px;
+}
+.cwc-locations-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cwc-locations-div div{
+    width: 350px;
+    padding: 10px 10px;
+}
+
+/*Footer Styles*/
+footer{
+    background: #002e33;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 30px;
+}
+.footer-follow{
+    font-size: 20px;
+    /* font-weight: 500; */
+}
+.social-media .col-md-4{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #707070;
+}
+.footer-info{
+    font-size: 20px;
+    color: white;
+}
+.contact-us{
+    font-size: 20px;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 17px;
+}
+.copyright-text{
+    text-align: right;
+}
+.policy-div{
+    display: inline;
+}
+.policy-div li{
+    margin-right: 20px;
+    display: inline;
+    color: white !important;
+}
+.social-media i{
+    margin-right: 7px;
+    font-size: 20px;
+    color: #d9abab;
+}
+
+@media (max-width: 1000px) {
+    footer,  .copyright, .footer-info, .footer-follow, .contact-us{
+        font-size: 15px;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    .footer-info{
+        margin-bottom: 0;
+    }
+}
