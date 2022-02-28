@@ -6,6 +6,7 @@ html{
 }
 body{
     background: #f3f3f3;
+    overflow-x: hidden;
 }
 *{
     list-style: none;
@@ -124,10 +125,26 @@ nav li{
     height: 5px;
 }
 
+.wwa{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.wwa h1{
+    font-size: 45px;
+}
+.wwa p{
+    display: inline;
+    font-size: 16px;
+}
+.wwa a{
+    font-style: italic;
+    margin-left: 20px;
+}
+
 .cw-div, .transcend-div, .metamorphoo-div{
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-repeat: none;
     margin-bottom: 50px;
     /* padding: 50px; */
@@ -151,36 +168,24 @@ nav li{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 120px;
 
 }
 .cw-div{
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/WEB\ \(CW\).jpg);
-      background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: none;
+     
 }
 .transcend-div{
      background-image: linear-gradient(rgba(105, 24, 24, 0.6), rgba(66, 4, 4, 0.6)), url(/images/TW\ 1.jpg);
-     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: none;
+    
 }
 .metamorphoo-div{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/WEB\ MN.jpg);
-      background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: none;
+     
 }
 .lightstream-div{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/LS\ 1.jpg);
-      background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: none;
+     
 }
 .trans-img-div{
     display: flex;
@@ -189,16 +194,21 @@ nav li{
     margin-right: 150px;
 }
 .arms-text-div{
-    width: 700px;
+    width: 520px;
     color: white;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 90px;
-}
-.arms-text-div{
     padding: 50px;
+}
+.arms-title{
+    display: block;
+    font-weight: bold;
+}
+.align-right{
+    text-align: right;
 }
 .arms-link{
     color: white;
@@ -216,7 +226,7 @@ nav li{
     color: black;
 }
 .trans-text {
-    margin-left: 10rem;;
+    margin-left: 90px;
 }
 /* .conference{
     margin-top: 80px;
@@ -309,9 +319,6 @@ nav li{
     font-size: 20px;
     color: #707070;
 }
-.conference-box{
-    /* pointer-events: none; */
-}
 .conference-img{
     width: 300px;
     height: 300px;
@@ -375,22 +382,27 @@ nav li{
 /* Handle on hover */
 /* ::-webkit-scrollbar-thumb:hover{
   background: #575252;  */
+.nation-prayer{
+    margin: 0;
+    padding: 0;
+    
+}
+.nations-img{
+    max-width: 99vw;
+}
+
 .youtube-div{
-    /* background: #fff; */
-    position: relative;
     margin-top: 100px;
     margin-bottom: 50px;
-}
-.youtube-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 .youtube-card{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: center; */
 }
 .youtube-title{
     max-width: 300px;
@@ -403,9 +415,6 @@ nav li{
     border-radius: 5%;
 }
 .youtube-vid-1 h3{
-    position: absolute;
-    left: 400px;
-    bottom: 320px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -462,6 +471,7 @@ nav li{
 .mixlr-div{
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 .mixlr-img{
     height: 250px;
@@ -529,4 +539,27 @@ footer{
 .social-media i{
     margin-right: 7px;
     font-size: 20px;
+}
+@media (max-width: 1200px) {
+    .arms-text-div{
+        padding: 50px 10px;
+    }
+    #event-img{
+        width: 200px;
+        height: 200px;
+    }
+    .countdown-li span{
+        margin-top: 0;
+    }
+}
+@media (max-width: 1000px){
+    .arms-img-div{
+        margin-left: 0;
+    }
+    .transcend-div{
+        padding: 1px 2px;
+    }
+    .trans-text{
+        margin-left: 0;
+    }
 }

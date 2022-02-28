@@ -1,20 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/cw-collage.jpg);
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;margin-bottom: 30px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.cwc-logo{
+    width: 80px;
+    height: 80px;
+}
+.cwc-text{
+    margin-top: 200px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header p{
+    font-size: 30px;
+    font-style: italic;
+}
+.mantra{
+    font-size: 40px;
+    margin-top: 120px;
+}
+.mantra span{
+    letter-spacing: 20px;
+    color: #6dff85;
+
+}
+
+
 .intro-text{
     text-align: center;
-    max-width: 850px;
-    padding: auto 30px;
+    max-width: 1000px;
+    padding: 20px 30px;
     color: #5b5b5b;
 }
 .intro-text h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
 .intro-text p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
+}
+
+.found-home, .pastorfred-div{
+    background: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.found-home-img{
+    background-size: cover;
+    max-width: 99vw;
+}
+.pastorfred-img{
+    background-size: cover;
+    max-width: 99vw;
 }
 
 .join-church-div{
     text-align: center;
+    margin-top: 50px;
 }
 .join-church-div h1{
     font-size: 60px;
@@ -29,12 +92,45 @@
 .statements-div{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 30px;
+    padding: 10px 5%;
     justify-content: center;
 }
 .statement{
-    width: 300px;
+    width: 358px;
     padding: 30px;
+    text-align: center;
+}
+.statement h4{
+    color: #018f9f;
+}
+.statement p{
+    color: #4d4d4d;
+}
+.convinced-h3{
+    text-align: center;
+    max-width: 900px;
+
+}
+
+.worship-with-div{
+    background: url(/images/GoogleMapTA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.worship-with-div h1{
+    font-size: 60px;
+}
+.worship-with-div p{
+    font-size: 30px;
+    color: #018f9f;
 }
 .cwc-locations-div{
     display: flex;
@@ -96,6 +192,42 @@ footer{
 }
 
 @media (max-width: 1000px) {
+    header{
+        height: 55vh;
+    }
+    .cwc-text{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    header p{
+        font-size: 20px;
+    }
+    .mantra{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .intro-text h1{
+        font-size: 30px;
+    }
+    .intro-text p{
+        font-size: 20px;
+    }
+    .join-church-div h3{
+        font-size: 20px;
+    }
+    .join-church-div h1{
+        font-size: 50px;
+    }
+    .convinced-h3{
+        padding: 1px 30px;
+        font-size: 20px;
+    }
+    .worship-with-div p {
+        font-size: 20px;
+    }
+    .cwc-locations-div div{
+        width: 240px;
+    }
     footer,  .copyright, .footer-info, .footer-follow, .contact-us{
         font-size: 15px;
     }
@@ -104,5 +236,60 @@ footer{
     }
     .footer-info{
         margin-bottom: 0;
+    }
+}
+@media (max-width: 800px){
+    .cwc-text{
+        font-size: 45px;
+    }
+    .mantra{
+        font-size: 15px;
+    }
+    .mantra span {
+        letter-spacing: 10px;
+    }
+}
+@media (max-width: 600px){
+    .mantra span {
+        letter-spacing: 5px;
+        font-size: 13px;
+    }
+    .intro-text h1{
+        font-size: 20px;
+    }
+    .intro-text p{
+        font-size: 15px;
+    }
+    .join-church-div h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .join-church-div p{
+        font-size: 13px;
+    }
+    .statement{
+        padding: 10px 30px;
+    }
+    .statement h4{
+        font-size: 18px;
+    }
+    .statement p{
+        font-size: 12px;
+    }
+    .convinced-h3{
+        font-size: 18px;
+    }
+    .worship-with-div {
+        font-size: 40px;
+    }
+    .worship-with-div p {
+        font-size: 12px;
+    }
+    .cwc-locations-div h5{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .cwc-locations-div p{
+        font-size: 12px;
     }
 }

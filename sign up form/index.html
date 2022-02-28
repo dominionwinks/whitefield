@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign up For Prayers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url:'https://api.apispreadsheets.com/data/bPsikcP50h32L6Gb/',
+                type:'post',
+                data:$("#myForm").serializeArray(),
+                success: function () {
+                    alert("Form Data Submitted :")
+                },
+                error: function () {
+                    alert("There was an error :(")
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Prayer Time</h2>
+        <form action="#" id="myForm">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your full name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter your church name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter your mobile number" required>
+            </div>
+            <div class="input-box button-2">
+                    <button onclick="this.disabled = true">Generate</button>
+            </div>
+            <h4 id="output" style="text-align: center">Time</h4>
+            <div class="input-box">
+                <input id="time-input" type="text" placeholder="Enter generated  time" disabled>
+            </div>
+            <div class="input-box button-2">
+                <button onclick="SubForm()">Submit</button>
+            </div>
+        </form>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
