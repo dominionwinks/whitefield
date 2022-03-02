@@ -120,10 +120,7 @@ nav li{
     margin-bottom: 40px;
 }
 
-.wfm-text-logo{
-    width: 10px;
-    height: 5px;
-}
+
 
 .wwa{
     margin-top: 30px;
@@ -388,7 +385,7 @@ nav li{
     
 }
 .nations-img{
-    max-width: 99vw;
+    max-width: 98vw;
 }
 
 .youtube-div{
@@ -453,7 +450,7 @@ nav li{
 .feed-div h2{
     margin-left: 20px;
 }
-.facebook-feed-div{
+.facebook-iframe-div{
      padding: 20px;
     background: white;
       margin-right: -20px;
@@ -551,6 +548,28 @@ footer{
     .countdown-li span{
         margin-top: 0;
     }
+    .feed-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feed-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mixlr-a{
+        display: flex;
+        justify-content: center;
+    }
+    .facebook-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
 }
 @media (max-width: 1000px){
     .arms-img-div{
@@ -566,12 +585,38 @@ footer{
     .trans-img-div{
         margin-right: 60px;
     }
+    .youtube-card{
+        margin-top: 30px;
+    }
 }
 @media (max-width: 800px){
+    header{
+        height: 80vh;
+    }
+    .carousel-div{
+        margin-top: 100px;
+    }
+    #wfm-text-logo{
+        width: 500px;
+        height: auto;
+    }
     #section{
         margin: 0;
+        padding: 0;
     }
     .trans-text{
         margin-left: 50px;
+    }
+    .cw-div, .transcend-div, .metamorphoo-div{
+        width: 100vw;
+    }
+    .arms-img-div{
+        margin-left: 25px;
+    }
+    .arm-p{
+        font-size: 15px;
+    }
+    .arms-link{
+        font-size: 12px;
     }
 }
