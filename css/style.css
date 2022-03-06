@@ -765,3 +765,23 @@ footer{
         width: 280px;
     }
 }
+@media (max-width: 400px){
+    #wfm-text-logo{
+        width: 350px;
+    }
+    .carousel-div{
+        margin-top: 50px;
+    }
+    .countdown-div{
+        height: 45vh;
+    }
+    .countdown-li{
+        padding: 5px;
+    }
+    .countdown-li span{
+        padding: 15px;
+    }
+    .contact-us, .footer-info, .footer-follow, .copyright-text{
+        font-size: 18px;
+    }
+}
