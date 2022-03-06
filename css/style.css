@@ -294,7 +294,7 @@ nav li{
 .conference-container {
   position: relative;
   /* width: 1000px; */
-  height: 700px;
+  height: 480px;
   overflow: hidden;
   cursor: grab;
 }
@@ -763,6 +763,9 @@ footer{
     }
     .facebook-iframe-div iframe{
         width: 280px;
+    }
+    .contact-us, .footer-info, .footer-follow, .copyright-text{
+        font-size: 18px;
     }
 }
 @media (max-width: 400px){
