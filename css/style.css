@@ -592,6 +592,12 @@ footer{
     .trans-img-div{
         margin-right: 60px;
     }
+    .conference-h1{
+        font-size: 25px;
+    }
+    .conference-h2{
+        font-size: 15px;
+    }
     .youtube-card{
         margin-top: 30px;
     }
@@ -649,6 +655,16 @@ footer{
     }
 }
 @media (max-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        overflow-x: hidden;
+    }
+    header{
+        height: 50vh;
+    }
     #wfm-text-logo{
         width: 400px;
     }
@@ -701,6 +717,18 @@ footer{
         margin-right: 0;
         justify-content: center;
     }
+    .conference{
+        width: 300px;
+    }
+    .conference-img{
+        width: 200px;
+        height: 200px;
+    }
+    .conference-img-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .youtube-vid-1 iframe{
         width: 330px;
         height: 200px;
@@ -709,7 +737,31 @@ footer{
         width: 300px;
     }
     .mixlr-img{
-        width: 180px;
-        height: 180px;
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .mixlr-div{
+        font-size: 80%;
+        /* flex-direction: column-reverse; */
+    }
+    .mixlr-text{
+        margin-left: 5px;
+    }
+    .mixlr-join-text{
+        font-size: 15px;
+    }
+    .mixlr-div h2{
+        font-size: 18px;
+    }
+    #wmc{
+        font-weight: bold;
+        display: block;
+    }
+    .facebook-iframe-div{
+         margin: 0;
+    }
+    .facebook-iframe-div iframe{
+        width: 280px;
     }
 }

@@ -69,9 +69,9 @@
 }
 
 @media all and (max-width: 768px) {
-  h1 {
+  /* h1 {
     font-size: calc(1.5rem * var(--smaller));
-  }
+  } */
   
   .countdown-li {
     font-size: calc(1.125rem * var(--smaller));
