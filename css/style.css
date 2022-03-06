@@ -571,7 +571,14 @@ footer{
         margin-top: 30px;
     }
 }
-@media (max-width: 1000px){
+@media (max-width: 1050px){
+    .countdown-div{
+        height: 60vh;
+        display: block;
+    }
+    .wwa h1{
+        font-size: 28px;
+    }
     .arms-img-div{
         margin-left: 0;
     }
@@ -600,6 +607,20 @@ footer{
         width: 500px;
         height: auto;
     }
+    .countdown-div{
+        height: 50vh;
+        display: block;
+    }
+    .countdown-li span{
+        /* width: 40px; */
+        font-size: 22px;
+    }
+    .wwa h1{
+        font-size: 25px;
+    }
+    .wwa p{
+        font-size: 13px;
+    }
     #section{
         margin: 0;
         padding: 0;
@@ -618,5 +639,77 @@ footer{
     }
     .arms-link{
         font-size: 12px;
+    }
+    
+}
+@media(max-width: 650px){
+    .youtube-vid-1 iframe{
+        width: 520px;
+       /* object-fit: cover; */
+    }
+}
+@media (max-width: 600px){
+    #wfm-text-logo{
+        width: 400px;
+    }
+    .countdown-li{
+        padding: 10px;
+    }
+    #event-img{
+        width: 150px;
+        height: 150px;
+    }
+    .countdown-div{
+        height: 36vh;
+        display: block;
+        padding: 20px;
+    }
+     .countdown-li span{
+        /* width: 40px; */
+        font-size: 15px;
+    }
+    .arms-div > div{
+        display: block;
+        padding: 15px 0;
+    }
+    .transcend-div{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .arms-img-div{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .arms-text-div{
+        padding: 0;
+        justify-content: center;
+        width: auto;
+        margin-right: 0;
+    }
+    .arms-link{
+        margin-right: 0;
+    }
+    .arm-p{
+        max-width: 300px;
+        text-align: center;
+    }
+    .trans-text{
+        margin-left: 0;
+    }
+    .trans-img-div{
+        margin-right: 0;
+        justify-content: center;
+    }
+    .youtube-vid-1 iframe{
+        width: 330px;
+        height: 200px;
+    }
+    .feed-content-div{
+        width: 300px;
+    }
+    .mixlr-img{
+        width: 180px;
+        height: 180px;
     }
 }
