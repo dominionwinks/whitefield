@@ -660,10 +660,11 @@ footer{
         margin: 0;
     }
     header{
-        overflow-x: hidden;
-    }
-    header{
+        overflow: hidden;
         height: 50vh;
+    }
+    .carousel-div{
+        margin-top: 50px;
     }
     #wfm-text-logo{
         width: 400px;
