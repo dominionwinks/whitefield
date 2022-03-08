@@ -250,6 +250,13 @@ footer{
     }
 }
 @media (max-width: 600px){
+    header{
+        height: 40vh;
+    }
+    .cwc-logo{
+        width: 50px;
+        height: 50px;
+    }
     .mantra span {
         letter-spacing: 5px;
         font-size: 13px;
@@ -279,9 +286,6 @@ footer{
     .convinced-h3{
         font-size: 18px;
     }
-    .worship-with-div {
-        font-size: 40px;
-    }
     .worship-with-div p {
         font-size: 12px;
     }
@@ -292,4 +296,20 @@ footer{
     .cwc-locations-div p{
         font-size: 12px;
     }
+}
+@media (max-width: 400px){
+    header{
+        height: 50vh;
+    }
+    .worship-with-div{
+        height: 20vh;
+    }
+    .worship-with-div h1{
+        font-size: 25px;
+    }
+} 
+@media (max-width: 380px){
+    header{
+        height: 65vh;
+    }    
 }
