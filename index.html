@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/font-awesome/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,62 +28,37 @@
     <title>Whitefield Missions</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
-            <a href=""><img src="/images/wfm-logo.png" alt="" id="nav-logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-                aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+        <a href=""><img src="/images/wfm-logo.png" alt="" id="nav-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse  my-2 my-md-0" id="navbarsExample05">
+        <ul class="navbar-nav ul-nav navbar-right">
             
-            <div class="collapse navbar-collapse  my-2 my-md-0" id="navbarsExample05">
-                <ul class="navbar-nav ul-nav navbar-right">
-                    
-                    <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./about/">ABOUT</li></a>
-                    <li class="dropdown"><a class="dropdown-toggle header-nav-link nav-link link-hover-effect-1" data-toggle="dropdown" href="#">CONFERENCES <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./katartismos/">KATARTISMOS<a></li>
-                            <li><a href="./haystack/">HAYSTACK</a></li>
-                            <li><a href="./metamorphoo/">METAMORPHOŌ</a></li>
-                            <li><a href="./passio-conf">PASSION CONFERENCE</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="">AUDIOS</a></li>
-                    <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./crosswalk-churches/"> CROSSWALK CHURCH</a></li>
-                    <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./transcend/">TRANSCEND</a></li>
-                    <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="">PARTNER WITH US</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="carousel-div">
+            <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./about/">ABOUT</li></a>
+            <li class="dropdown"><a class="dropdown-toggle header-nav-link nav-link link-hover-effect-1" data-toggle="dropdown" href="#">CONFERENCES <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="./katartismos/">KATARTISMOS<a></li>
+                        <li><a href="./haystack/">HAYSTACK</a></li>
+                        <li><a href="./metamorphoo/">METAMORPHOŌ</a></li>
+                        <li><a href="./passio-conf">PASSION CONFERENCE</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="">AUDIOS</a></li>
+                <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./crosswalk-churches/"> CROSSWALK CHURCH</a></li>
+                <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="./transcend/">TRANSCEND</a></li>
+                <li class="nav-link"><a class="header-nav-link nav-link link-hover-effect-1" href="">PARTNER WITH US</a></li>
+            </ul>
+        </div>
+    </nav>
 
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                    
-                <div class="carousel-container">
-                    <div class="carousel-inner">
-                        <div class="welcome-slide carousel-item active">
-                            <div class="animated wow fadeInDown" data-wow-delay="1s">
-                                <img src="/images/wfm-logo-text.png" alt="" id="wfm-text-logo">
-                        
-                            </div>
-                        </div>
-                       
-                </div>
-                
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+    <header>
+        <div class="header-div animated wow fadeInDown" data-wow-delay="1s">
+            <img src="/images/wfm-logo-text.png" alt="" id="wfm-text-logo">
+            <p>...till Jesus becomes the desire of every nation.</p>
         </div>
     </header>
 
@@ -171,53 +146,56 @@
             
             </div>
     </section>
-    <div class="conference container">
+    <div class="conf-div container">
         <h1 class="conference-h1">Conferences & Special Meetings </h1>
         <h2 class="conference-h2">Championing the cause of local churches everywhere</h2>
-        <div class="conference-container">
-            <div class="conference-cards">
-                <div class="conference-box">
-                    <div class="conference-img-div">
-                        <img src="images/katartismos.jpg" alt="" class="conference-img">
-                        <h1 class="conference-title">KATARTISMOS <br> CONGRESS</h1>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+            <div class="carousel-inner">
+        
+                <div class="carousel-item active">
+                    <div class="conference-box">
+                        <div class="conference-img-div">
+                            <img src="images/katartismos.jpg" alt="" class="conference-img">
+                            <h1 class="conference-title">KATARTISMOS <br> CONGRESS</h1>
+                        </div>
+                        <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
+                        <a class="conference-link" href="">FIND OUT MORE</a>
                     </div>
-                    <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
-                    <a class="conference-link" href="">FIND OUT MORE</a>
                 </div>
-                <div class="conference-box">
-                    <div class="conference-img-div">
-                        <img src="images/metamorphoo.jpg" alt="" class="conference-img">
-                        <h1 class="conference-title">METAMORPHOŌ <br>BOOT CAMP</h1>
+        
+                <div class="carousel-item">
+                    <div class="conference-box">
+                        <div class="conference-img-div">
+                            <img src="images/metamorphoo.jpg" alt="" class="conference-img">
+                            <h1 class="conference-title">METAMORPHOŌ <br>BOOT CAMP</h1>
+                        </div>
+                        <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
+                        <a class="conference-link" href="https://www.google.com/">FIND OUT MORE</a>
                     </div>
-                    <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
-                    <a class="conference-link" href="https://www.google.com/">FIND OUT MORE</a>
                 </div>
-                <div class="conference-box">
-                    <div class="conference-img-div">
-                        <img src="images/haystack.jpg" alt="" class="conference-img">
-                        <h1 class="conference-title">HAYSTACK <br>CONFERENCE</h1>
+        
+                <div class="carousel-item">
+                    <div class="conference-box">
+                        <div class="conference-img-div">
+                            <img src="images/haystack.jpg" alt="" class="conference-img">
+                            <h1 class="conference-title">HAYSTACK <br>CONFERENCE</h1>
+                        </div>
+                        <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
+                        <p><a class="conference-link" href="">FIND OUT MORE</a></p>
                     </div>
-                    <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
-                    <p><a class="conference-link" href="">FIND OUT MORE</a></p>
-                </div>
-                <div class="conference-box">
-                    <div class="conference-img-div">
-                        <img src="images/haystack.jpg" alt="" class="conference-img">
-                        <h1 class="conference-title">HAYSTACK <br>CONFERENCE</h1>
-                    </div>
-                    <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
-                    <p><a class="conference-link" href="">FIND OUT MORE</a></p>
-                </div>
-                <div class="conference-box">
-                    <div class="conference-img-div">
-                        <img src="images/katartismos.jpg" alt="" class="conference-img">
-                        <h1 class="conference-title">KATARTISMOS <br> CONGRESS</h1>
-                    </div>
-                    <p class="conference-desc">Championing the cause of local churches <br> everywhere</p>
-                    <a class="conference-link" href="">FIND OUT MORE</a>
                 </div>
         
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 
@@ -248,18 +226,13 @@
         
     </div>
 
-    <!-- <div class="article-div">
-        <div class="gallery">
-            <div class="gallery-container">
-                <div class="gallery-item gallery-item-1" data-index="1"> <img class="article-img"  src="/images/katartismos.jpg"></div>
-                <div class="gallery-item gallery-item-2" data-index="2"><img class="article-img"  src="/images/haystack.jpg" ></div>
-                <div class="gallery-item gallery-item-3" data-index="3"><img class="article-img"  src="/images/metamorphoo.jpg" ></div>
-                <div class="gallery-item gallery-item-4"data-index="4" ><img class="article-img" src="/images/haystack.jpg" ></div>
-                <div class="gallery-item gallery-item-5" data-index="5"><img class="article-img"  src="/images/metamorphoo.jpg" ></div>
-            </div>
-            <div class="gallery-controls"></div>
+    <div class="listen-to">
+        <img class="headphone-img" src="/images/headphone.png" alt="">
+        <div class="listen-to-text">
+            <h2>Listen to Pastor Fred's Teachings</h2>
+            <a href="#">Download on LightStream Media</a>
         </div>
-    </div> -->
+    </div>
 
     <div class="container" style="margin-top:30px">
         <div class="row">

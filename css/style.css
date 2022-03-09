@@ -19,7 +19,6 @@ body{
 /***Header Style***/
 header{
     background-image: url(/images/header-bg.jpg);
-    height: 100vh;
     background-repeat: none;
     background-size: cover;
     background-position: center;
@@ -62,7 +61,6 @@ nav li{
   overflow: hidden;
   padding: 0.5rem 0;
 }
-
 .link-hover-effect-1::before {
   content: "";
   position: absolute;
@@ -74,7 +72,6 @@ nav li{
   transform: translateX(-105%);
   transition: transform 0.5s ease-in-out;
 }
-
 .link-hover-effect-1:hover::before {
   transform: translateX(0);
 }
@@ -86,41 +83,18 @@ nav li{
 .dropdown-menu a{
     color: white;
 }
-
-.carousel-div{
-    margin-top: 200px;
+.header-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10%;
 }
-.carousel-item{
-    color: white;
-    text-align: center;
+.header-div p{
+    color: #c4c0c7;
+    font-style: italic;
+    margin-top: 35px;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    display: none !important;
-}
-.slide-h2{
-    font-size: 42px;
-    color: #ffd700;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.slide-p{
-    font-size: 20px;
-    font-family: verdana;
-    font-weight: 500;
-    margin-top: 15px;
-}
-.carousel-indicators{
-    display: none;
-}
-.countdown-div{
-    height: 50vh;
-    margin-bottom: 40px;
-}
-
-
 
 .wwa{
     margin-top: 30px;
@@ -225,87 +199,17 @@ nav li{
 .trans-text {
     margin-left: 90px;
 }
-/* .conference{
-    margin-top: 80px;
-}
-.conference-h1{
-    text-align: center;
-    color: #707070;
-}
-.conference-h2{
-    text-align: center;
-    font-size: 20px;
-    color: #707070;
-}
-/* .conference-img{
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-    margin-top: 30px;
-}
-.conference-title{
-    padding-top: 15px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #444444;
-}
-.conference-desc{
-    text-align: center;
-    font-size:14px;
-    font-weight: 400;
-    color: #444444;
 
-}
-.conference-post{
-    display: flex ;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: center;
- 
-}
-.conference-box{
-    margin-right: 150px;
-}
-.conference-link{
-    color: #444444;
-    border:  0.15rem solid #444444;
-    border-radius: 1rem;
-    padding: 5px 20px;
-    font-size: 9px;
-    margin-top: 50px;
-    text-align: center;
-    align-items: center;
-    margin-left: 90px;
-}
-.conference-link:hover{
-    text-decoration: none;
-    background: #444444;
-    color: white;
-}
-.conference-img-div img{
-    border-radius: 9px;
-} */ */
 
 /* Conferences Section */
-.conference{
+.conf-div{
     margin-top: 80px;
+    margin-bottom: 100px !important;
 }
-.conference-container {
-  position: relative;
-  /* width: 1000px; */
-  height: 480px;
-  overflow: hidden;
-  cursor: grab;
-}
-.conference-cards {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: grid;
-  grid-template-columns: repeat(6, 300px);
-  grid-gap: 50px;
-  pointer-events: none;
+.conference-box, .conference-img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .conference-h1{
     text-align: center;
@@ -347,10 +251,8 @@ nav li{
     border-radius: 1rem;
     padding: 5px 20px;
     font-size: 9px;
-    margin-top: 50px;
     text-align: center;
     align-items: center;
-    margin-left: 90px;
 }
 .conference-link:hover{
     text-decoration: none;
@@ -361,24 +263,7 @@ nav li{
     border-radius: 9px;
 }
 
-/* width */
-/* ::-webkit-scrollbar{
-  width: 5px;
-  height: 8px;
-}
 
-/* Track */
-
- 
-/* Handle */
-/* ::-webkit-scrollbar-thumb{
-  background: rgb(88, 80, 80); 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover{
-  background: #575252;  */
 .nation-prayer{
     margin: 0;
     padding: 0;
@@ -414,6 +299,19 @@ nav li{
 .youtube-vid-1 h3{
     font-size: 18px;
     font-weight: 600;
+}
+.listen-to{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listen-to-text{
+    display: flex;
+    flex-direction: column;
+}
+.headphone-img{
+    width: 150px;
+    height: 150px;
 }
 .article-div{
     background: url(/images/TEXTURE.png);
@@ -604,7 +502,10 @@ footer{
 }
 @media (max-width: 800px){
     header{
-        height: 80vh;
+        padding: 80px auto;
+    }
+    .header-div{
+        padding: 100px 20px;
     }
     .carousel-div{
         margin-top: 100px;
@@ -646,12 +547,17 @@ footer{
     .arms-link{
         font-size: 12px;
     }
-    
+    .listen-to-text h2{
+        font-size: 20px;
+    }
 }
 @media(max-width: 650px){
     .youtube-vid-1 iframe{
         width: 520px;
        /* object-fit: cover; */
+    }
+    .header-div p{
+        font-size: 15px;
     }
 }
 @media (max-width: 600px){
@@ -661,7 +567,6 @@ footer{
     }
     header{
         overflow: hidden;
-        height: 50vh;
     }
     .carousel-div{
         margin-top: 50px;
@@ -729,6 +634,16 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .headphone-img{
+        width: 80px;
+        height: 80px;
+    }
+    .listen-to-text h2{
+        font-size: 15px;
+    }
+    .listen-to-text a{
+        font-size: 12px;
     }
     .youtube-vid-1 iframe{
         width: 330px;
